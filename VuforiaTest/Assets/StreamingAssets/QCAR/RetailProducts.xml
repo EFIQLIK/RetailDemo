@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="Popcorn.Bottom" size="11.000000 4.400966"/>
+        <ImageTarget name="Popcorn.Right" size="4.400000 15.500391"/>
+        <ImageTarget name="Popcorn.Top" size="11.000000 4.400966"/>
+        <ImageTarget name="Popcorn.Back" size="11.000000 15.497939"/>
+        <ImageTarget name="Popcorn.Left" size="4.400000 15.500391"/>
+        <ImageTarget name="Popcorn.Front" size="11.000000 15.497939"/>
+        <MultiTarget name="Popcorn">
+            <Part name="Popcorn.Left" translation="-5.5 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Popcorn.Right" translation="5.5 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Popcorn.Front" translation="0 0 2.200000047683716" rotation="AD: 1 0 0 0"/>
+            <Part name="Popcorn.Back" translation="0 0 -2.200000047683716" rotation="AD: 0 1 0 180"/>
+            <Part name="Popcorn.Top" translation="0 7.75 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Popcorn.Bottom" translation="0 -7.75 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
